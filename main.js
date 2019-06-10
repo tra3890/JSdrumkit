@@ -1,6 +1,6 @@
 // add event listener for when a specific key is pressed(keydown)
 
-window.addEventListener('keydown', event => {
+document.addEventListener('keydown', event => {
 
     // function ... when the query selector matches the id of the specified event key the audio that is assigned to that key 
     // will play.
