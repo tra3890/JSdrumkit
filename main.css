@@ -1,28 +1,26 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: Montserrat;
-}
-
-body {
-    background: url("") background-size: 100vw 100vh;
-    text-align: center;
-    /* color: greenyellow; */
-}
-
-
-/* .logo {
-    
-
-
-/* .drums {
-    
-
-
-/* .drum { */
-
-.drum kbd {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: black
-}
+                * {
+                    padding: 0;
+                    margin: 0;
+                    font-family: Montserrat;
+                }
+                
+                body {
+                    background: url("images/bg.png");
+                    background-size: 100vw 100vh;
+                    text-align: center;
+                }
+                
+                #drum kbd {
+                    margin-top: 20px;
+                    font-size: 2.5em;
+                    font-weight: bold;
+                    color: black;
+                    display: flex;
+                    padding: 30px;
+                }
+                
+                #drum {
+                    display: inline-flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
